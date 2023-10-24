@@ -1,5 +1,5 @@
-from baselines.common.input import observation_input
-from baselines.common.tf_util import adjust_shape
+from baselines.baselines.common.input import observation_input
+from baselines.baselines.common.tf_util import adjust_shape
 
 # ================================================================
 # Placeholders
