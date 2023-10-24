@@ -1,5 +1,5 @@
 import tensorflow as tf
-import tensorflow.contrib.layers as layers
+from tf_slim.layers import layers
 
 
 def build_q_func(network, hiddens=[256], dueling=True, layer_norm=False, **network_kwargs):
